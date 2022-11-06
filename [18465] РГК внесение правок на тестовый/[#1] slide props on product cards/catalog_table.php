@@ -91,7 +91,7 @@ else{
 			"SHOW_PROPS" => CAllcorp3::GetFrontParametrValue('SHOW_PROPS_BLOCK'),
 		*/
 		/*"SHOW_PROPS" => $showProps,*/
-		"SHOW_PROPS" => ($arResult["VARIABLES"]["SECTION_ID"] == '178' && '100' ? 'Y' : ''),
+		"SHOW_PROPS" => $arResult["VARIABLES"]["SECTION_ID"] == '100' ? 'Y' : '',
 		"PICTURE_RATIO" => $arParams['PICTURE_RATIO'] ?? strtolower(CAllcorp3::GetFrontParametrValue('ELEMENTS_IMG_TYPE')),
 	),
 	$component, array('HIDE_ICONS' => $isAjax)
