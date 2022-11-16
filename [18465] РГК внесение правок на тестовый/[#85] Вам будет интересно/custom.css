@@ -1,0 +1,78 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+/* Examples (uncomment to use):*/
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+/* IMAIL POPUP IN MOBILE FIXED HEADER MENU*/
+#email-dropdown {
+position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 3000;
+    background: #fff;
+    background: var(--black_bg_black);
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    padding: 0;
+    cursor: def;
+}
+#email-dropdown {
+    top: calc(100% + 1px);
+}
+/*SERVICES CARDS - CHANGE ROUND IMAGES TO SQUARE WITH ROUND CORNERS*/
+.rounded{
+    border-radius: 4px;
+}
+/*SERVICES CARDS - INCREASE THE WIDTH OF  IMAGES */
+.services-list--img-trl .grid-list--items-1 .services-list__item-image-wrapper:not(.services-list__item-image-wrapper--ICONS).services-list__item-image-wrapper--PICTURE .services-list__item-link {
+    width: 220px;
+}
+.services-list__item-image-wrapper--TOP .services-list__item-link, .services-list__item-image-wrapper--TOP span {
+    width: 240px;
+}
+/*SERVICES CARDS - INCREASE THE WIDTH OF PREVIEW IMAGES */
+.sections-list__item--compact .sections-list__item-image-wrapper:not(.sections-list__item-image-wrapper--ICONS) .sections-list__item-link {
+    width: 70px;
+}
+/* BLOCK "OFTEN SEARCH" TAGS IN SECTIONS*/
+.often-tags{
+    padding: 13px 23px;
+    margin-bottom: 1rem;
+}
+.often-tags__items{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-bottom: .3rem;
+}
+.often-tags__item {
+outline: none;
+    margin: 4px;
+    padding: 6px 14px;
+    cursor: pointer;
+}
+/* ARTICLES IN CATALOG*/
+.inner-block__title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+padding-top: 5rem;
+padding-bottom: 3rem;
+}
+.inner-block__title-wrapper h2 {
+margin: 0!important;
+}
+.inner-block__part--right {
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 600px) {
+.inner-block__link {
+    font-size: 0;
+}
+}
