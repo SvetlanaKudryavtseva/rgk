@@ -442,7 +442,7 @@ $containerName = 'catalog-products-viewed-container';
 						?>
 						<div class="col-xs-12 product-item-small-card">
 							<div class="row">
-								<?
+								<?/*
 								foreach ($rowItems as $item)
 								{
 									?>
@@ -471,7 +471,7 @@ $containerName = 'catalog-products-viewed-container';
 									</div>
 									<?
 								}
-								?>
+								*/?>
 							</div>
 						</div>
 						<?
